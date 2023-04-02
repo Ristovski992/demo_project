@@ -13,6 +13,6 @@ public class Register extends HelperClass {
     public void MakeSuccessfullRegistration() throws InterruptedException {
         driver.get("http://automationpractice.pl/index.php");
         authenticationPage.Registration(driver);
-        registrationPage.RegistrationPage1(driver);
+        registrationPage.shouldMakeRegistration(driver);
     }
 }

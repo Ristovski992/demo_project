@@ -9,7 +9,7 @@ public class AuthenticationPage {
     CustomMethods customMethods = new CustomMethods();
     public String REGISTRATION_EMAIL_ADDRESS_FIELD = "//*[@id=\"email_create\"]";
     public String SIGN_IN_BTN = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a";
-    public String EMAIL_VALUE = customMethods.getRandomString(10)+"@test.com" ;
+    public String EMAIL_VALUE = customMethods.generateRandomStringWithNumbers(10)+"@test.com" ;
 
 
     public void Registration(WebDriver driver) {
